@@ -1,0 +1,263 @@
+@media (max-width:1244px) {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+    .influencer-left-content {
+        max-width: 40%;
+        margin-top: 130px;
+        padding-left: 50px;
+    }
+    .influencer-left-content h1 {
+        color: rgb(172, 90, 134);
+        font-size: 45px;
+        font-weight: 700;
+        width: 440px;
+    }
+    .influencer-left-content p {
+        font-size: 17px;
+        font-weight: 700;
+        width: 440px;
+        color: rgba(106, 69, 150, 0.897);
+        margin-top: 25px;
+    }
+    .influencer-right-content {
+        max-width: 40%;
+        padding-right: 50px;
+    }
+    .responsive {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .featured {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 150px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .fanus-content {
+        width: 40%;
+        padding-right: 90px;
+    }
+    .fanus-content h1 {
+        font-size: 30px;
+    }
+    .common-button .anchor a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    .last-footer{
+        width: 100%;
+      }
+}
+
+@media (max-width: 992px){
+    .last-footer{
+        width: 125%;
+    }
+    .container-01 {
+        width: 940px;
+        margin: auto;
+    }
+    .influencer-left-content h1 {
+        color: rgb(172, 90, 134);
+        font-size: 45px;
+        font-weight: 700;
+        width: 282px;
+    }
+    .influencer-left-content p {
+        font-size: 13px;
+        font-weight: 700;
+        width: 282px;
+        color: rgba(106, 69, 150, 0.897);
+        margin-top: 25px;
+    }
+    .influencer-right-content {
+        max-width: 48%;
+        margin-top: 75px;
+        padding-right: 50px;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 0px;
+        width: 74%;
+        padding-left: 43px;
+    }
+    .product {
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 3px;
+        box-shadow: 2px 2px 20px 10px rgb(201 201 201 / 63%);
+        margin-top: 20px;
+        margin-left: 107px;
+        border-radius: 5px;
+        width: 55%;
+    }
+    .product img {
+        width: 200px;
+        height: auto;
+    }
+    .fanus img {
+        height: 200px;
+        width: 320px;
+        border-radius: 5px;
+    }
+    .fanus-content {
+        width: 40%;
+        padding-right: 60px;
+    }
+    .fanus-content h1 {
+        font-size: 20px;
+    }
+    .fanus-content p {
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(100 100 100 / 90%);
+        width: 400px;
+        margin-top: 8px;
+    }
+    .last-footer {
+        width: 100%;
+    }
+}
+@media (max-width: 668px) {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 237px;
+    }
+    .influencer {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .influencer-left-content {
+        margin-top: 80px;
+        padding-left: 257px;
+    }
+    .influencer-left-content h1 {
+        color: rgb(172, 90, 134);
+        font-size: 35px;
+        font-weight: 600;
+        width: 316px;
+    }
+    .influencer-left-content p {
+        font-size: 12px;
+        font-weight: 700;
+        width: 282px;
+        color: rgba(106, 69, 150, 0.897);
+        margin-top: 25px;
+        padding-left: 7px;
+    }
+    .common-button {
+        display: flex;
+        align-items: center;
+        padding: 8px 50px;
+        border-radius: 10px;
+        border-color: #ff0077;
+        background-color: #ff0077;
+        margin-top: 23px;
+        margin-left: 13px;
+    }
+    .influencer-right-content {
+        padding-left: 183px;
+    }
+    .responsive {
+        padding-left: 400px;
+    }
+    .logo-section {
+        display: flex;
+        justify-content: space-evenly;
+        border-top: 5px solid #ddd;
+        border-bottom: 5px solid #ddd;
+        border-radius: 5px 5px 5px 5px;
+        margin-bottom: 120px;
+        padding-left: 0px;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-bottom: 0px;
+        width: 50%;
+        padding-left: 310px;
+    }
+    .product {
+        padding-left: 92px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 6px;
+        box-shadow: 2px 2px 20px 10px rgb(201 201 201 / 63%);
+        margin-top: 20px;
+        margin-left: 90px;
+        border-radius: 5px;
+        width: 50%;
+    }
+    .right-arrow {
+        display: flex;
+        position: absolute;
+        left: 655px;
+        margin-top: 30px;
+    }
+    .fanus {
+        width: 100%;
+    }
+    .container-01 {
+        width: 330px;
+        display: block;
+        margin-left: 180px;
+    }
+    .fanus img {
+        height: 187px;
+        width: 330px;
+        border-radius: 5px;
+        padding-left: 202px;
+    }
+    .fanus-content {
+        width: 100%;
+        margin-top: 230px;
+    }
+    .fanus-content h1 {
+        font-size: 22px;
+        width: 300px;
+    }
+    .fanus-content p {
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(100 100 100 / 90%);
+        width: 310px;
+        margin-top: 8px;
+    }
+    .common-button {
+        display: flex;
+        align-items: center;
+        padding: 8px 50px;
+        border-radius: 10px;
+        border-color: #ff0077;
+        background-color: #ff0077;
+        margin-top: 23px;
+        margin-left: 52px;
+    }
+    .common-button .anchor a {
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 400;
+        color: white;
+    }
+    .common-button .icon i {
+        font-size: 18px;
+        margin-left: 22px;
+        color: white;
+    }
+    .last-footer {
+        width: 200%;
+    }
+}
