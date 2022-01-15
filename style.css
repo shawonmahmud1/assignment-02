@@ -89,6 +89,10 @@ body {
 .influencer-right-content{
     max-width: 40%;
 }
+.influencer-right-content:hover img{
+    transform: scale(1.2);
+    transition: .5s;
+}
 .influencer-right-content img{
     margin-top: 70px;
 }
