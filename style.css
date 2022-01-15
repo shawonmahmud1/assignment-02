@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-01{
+    width: 1240px;
+    margin: auto;
+}
+/*---------------------------
+ Header css is here
+--------------------------- */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.left-content { max-width: 30%;}
+.left-content h1{
+    display: inline-block;   
+}
+.right-content{
+    max-width: 70%;
+}
+.right-content .right-menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.right-content .right-menu ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.right-content .right-menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: rgb(46, 45, 45);
+}
+
+/*--------------------------
+ influencer css are here
+-------------------------- */
+.influencer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.influencer-left-content{
+    max-width: 60%;
+    margin-top: 130px;
+}
+.influencer-left-content h1{
+    color: rgb(172, 90, 134);
+    font-size: 45px;
+    font-weight: 700;
+    width: 600px;
+}
+.influencer-left-content p{
+    font-size: 17px;
+    font-weight: 700;
+    width: 600px;
+    color: rgba(106, 69, 150, 0.897);
+    margin-top: 25px;
+}
+.common-button{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: #ff0077;
+    background-color: #ff0077;
+    margin-top: 20px;
+}
+.common-button .anchor a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.common-button .icon i{
+    font-size: 18px;
+    margin-left: 8px;
+    color: white;  
+}
+.influencer-right-content{
+    max-width: 40%;
+}
+.influencer-right-content img{
+    margin-top: 70px;
+}
+.images{
+   position: relative;
+}
+.index {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+}
+
+/* logo-section css are here */
+.logo-section{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 120px;
+}
+.logo-section .logo-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*---------------
+popular section css here
+----------------*/
+.container-02{
+    width: 1170px;
+    margin: auto;
+}
+.popular h2{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/*---------------------
+Grid CSS are Here 
+---------------------*/
+/* .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
+.products {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    padding-bottom: 45px;
+   
+}
+.product {
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 3px;
+    box-shadow: 2px 2px 20px 10px rgb(201 201 201 / 63%);
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+  
+}
+.product h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+.product h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 5px;
+   
+}
+.icon{
+    margin-top: 10px;
+}
+.icon ul{
+    display: flex;
+}
+.icon li{
+    list-style: none;
+}
+.icon li .fas{
+    color: rgb(247, 181, 14);
+    margin-right: 5px;
+}
+.icon ul span{
+    font-weight: 600;
+    margin-left: 15px;
+    color: rgb(145, 143, 143);
+}
+.product p{
+    font-size: 16px;
+    font-weight: 600;
+    width: 250px;
+    color: rgb(145, 143, 143);
+}
+/*----------------------
+ See More css are here
+---------------------- */
+.arrow{
+    position: relative;
+}
+.right-arrow{
+    display: flex;
+    position: absolute;
+    left: 1055px;    
+}
+.right-arrow h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: crimson;
+}
+.right-arrow a{
+    font-size: 20px;
+    margin-left: 8px;
+    color: crimson;
+}
+/* ----------------------
+featured css are here
+------------------------ */
+.featured{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.fanus{
+    width: 40%;
+}
+.fanus img {
+    height: 245px;
+    width: 440px;
+    border-radius: 5px;
+}
+.fanus-content{
+    width: 60%;
+}
+.fanus-content h1{
+    font-size: 40px;
+}
+.fanus-content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(100 100 100 / 90%);
+    width: 550px;
+    margin-top: 25px;
+}
+.no-radious{
+    border-radius: 0px;
+}
+
+/*----------------------
+Footer Section css are here
+-----------------------*/
+footer{
+    padding-top: 60px;
+}
+.my-footer{
+    padding: 40px 0px;
+    background-color: #0a0826;
+    position: relative;
+}
+.my-footer h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.my-footer h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.footer-logo{
+    margin-top: 20px;
+    position: absolute;
+    left: 45%;
+   
+}
+.footer-logo ul{
+    color: white;
+    display: flex;
+}
+.footer-logo li {
+    color: white;
+    margin-right: 30px;
+    list-style: none;
+    text-align: center;
+}
