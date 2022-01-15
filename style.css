@@ -164,7 +164,7 @@ Grid CSS are Here
    
 }
 .icon{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .icon ul{
     display: flex;
@@ -247,8 +247,8 @@ Footer Section css are here
 footer{
     padding-top: 60px;
 }
-.my-footer{
-    padding: 40px 0px;
+.my-footer {
+    padding: 60px 0px;
     background-color: #0a0826;
     position: relative;
 }
@@ -266,11 +266,10 @@ footer{
     text-align: center;
     letter-spacing: 1px;
 }
-.footer-logo{
-    margin-top: 20px;
+.footer-logo {
+    margin-top: 15px;
     position: absolute;
     left: 45%;
-   
 }
 .footer-logo ul{
     color: white;
